@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+</head>
+<body>
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+  <header>
+    <div class="topBar">
+      <img src="image/twittler-logo.png" height="22px">
+    </div>
+  </header>
+  
+  <div class="contents-box input-area">
+    <form style="margin-bottom: 55px;">
+      <div class="title-text">Username</div>
+      <input class="input-username" type="text" name="Username"><br>
+      <div class="title-text">Message</div>
+      <textarea class="textarea-message"></textarea>
+      
+      <!-- <input type="submit" class="tweet-button" value="tweet !"> -->
+      <button type="button" id="tweet-button" class="blue-button" onclick="createTweet();">Tweet !</button>
+    </form>
+
+  </div>
+
+  <div class="contents-box comments-box">
+    <div id="check-new-tweet-button" class="gray-tweet-button" onclick="checkNewTweet();">Check new tweet</div>
+    <div id="clear-filter-button" class="gray-tweet-button" onclick="goBack();">go back & clear filter</div>
+    <div id="wrote-comments-place"></div>
+    <div id="tweetList"></div>
+  </div>
+
+  
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

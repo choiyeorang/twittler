@@ -1,0 +1,164 @@
+/*#greeting {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  color: white;
+  background-color: #eee;
+  text-shadow: 0 0 5px #333;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+} */
+
+/*header {border: 0; margin: 0;} * {border: 0; margin: 0;}*/
+
+body { 
+  margin: 0px; 
+  background-color: #fafafa;
+}
+
+.topBar {
+  
+  background: #191919;
+  color: white;
+  height: 60px;
+  display:flex;
+  align-items:center;
+  padding-left: 25px;
+
+}
+
+.contents-box {
+  
+  background-color: white;
+  box-sizing: border-box;
+  width: 1077px;
+  height: auto;
+  border: 1px solid #e8e8e8;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding: 60px;
+}
+
+.input-area {
+  margin-top: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.comments-box {
+  margin-top: -1px;
+  margin-bottom: 70px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button {
+  cursor: pointer; 
+  text-align: center;
+  font-size: 17px;
+}
+
+.blue-button {
+  border-radius: 80px;
+  background-color: #0057ff;
+  border: none;
+  color:#fff;
+  padding: 15px; 
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#tweet-button {
+  margin-top: 15px;
+  float: right;
+  width: 100px;
+}
+
+.gray-tweet-button {
+  border-radius: 80px;
+  
+  color: #515151;
+  text-align: center;
+  
+  border: 1px solid #e8e8e8;
+  padding: 7px;
+  width: 200px;
+  height: 28px;
+  
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#clear-filter-button {
+  display: none;
+}
+
+.title-text {
+  color: #848484;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input, textarea {
+  border: 1px solid #c1c1c1;
+  margin-bottom: 15px;
+  padding: 10px;
+  
+}
+
+.textarea-message {
+  width: 98%;
+  height: 100px;
+}
+
+.input-username {
+  width: 200px;
+  height: 10px;
+}
+
+
+
+.comments-li {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.username {
+  color: #333333;
+  font-weight: bold;
+  
+}
+
+.commentTime {
+  color: #a9a9a9;
+  font-weight: bold;
+  margin-left: 30px;
+  
+}
+
+.comments {
+  margin-top: 10px;
+  color: #626262;
+}
+
+
+a {
+  cursor: pointer;
+}
+
+
+
+/* ------------------------------------- */
+
+.user {
+  color: #333333;
+  font-weight: bold;
+  
+}
